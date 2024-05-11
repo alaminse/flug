@@ -1,0 +1,1224 @@
+<?php
+
+namespace Database\Seeders;
+
+use App\Models\Language;
+use Illuminate\Database\Seeder;
+use Illuminate\Support\Str;
+
+class FlugSeeder extends Seeder
+{
+    /**
+     * Run the database seeds.
+     */
+    public function run(): void
+    {
+        $flugs = [
+            [
+                'name' => 'Andorra',
+                'code' => 'AD',
+                'flug' => 'assets/flags/ad.png',
+            ],
+            [
+                'name' => 'United Arab Emirates',
+                'code' => 'AE',
+                'flug' => 'assets/flags/ae.png',
+            ],
+            [
+                'name' => 'Afghanistan',
+                'code' => 'AF',
+                'flug' => 'assets/flags/af.png',
+            ],
+            [
+                'name' => 'Antigua and Barbuda',
+                'code' => 'AG',
+                'flug' => 'assets/flags/ag.png',
+            ],
+            [
+                'name' => 'Anguilla',
+                'code' => 'AI',
+                'flug' => 'assets/flags/ai.png',
+            ],
+            [
+                'name' => 'Albania',
+                'code' => 'AL',
+                'flug' => 'assets/flags/al.png',
+            ],
+            [
+                'name' => 'Armenia',
+                'code' => 'AM',
+                'flug' => 'assets/flags/am.png',
+            ],
+            [
+                'name' => 'Netherlands Antilles',
+                'code' => 'AN',
+                'flug' => 'assets/flags/an.png',
+            ],
+            [
+                'name' => 'Angola',
+                'code' => 'AO',
+                'flug' => 'assets/flags/ao.png',
+            ],
+            [
+                'name' => 'Argentina',
+                'code' => 'AR',
+                'flug' => 'assets/flags/ar.png',
+            ],
+            [
+                'name' => 'American Samoa',
+                'code' => 'AS',
+                'flug' => 'assets/flags/as.png',
+            ],
+            [
+                'name' => 'Austria',
+                'code' => 'AT',
+                'flug' => 'assets/flags/at.png',
+            ],
+            [
+                'name' => 'Australia',
+                'code' => 'AU',
+                'flug' => 'assets/flags/au.png',
+            ],
+            [
+                'name' => 'Aruba',
+                'code' => 'AW',
+                'flug' => 'assets/flags/aw.png',
+            ],
+            [
+                'name' => 'Åland Islands',
+                'code' => 'AX',
+                'flug' => 'assets/flags/ax.png',
+            ],
+            [
+                'name' => 'Azerbaijan',
+                'code' => 'AZ',
+                'flug' => 'assets/flags/az.png',
+            ],
+            [
+                'name' => 'Bosnia and Herzegovina',
+                'code' => 'BA',
+                'flug' => 'assets/flags/ba.png',
+            ],
+            [
+                'name' => 'Barbados',
+                'code' => 'BB',
+                'flug' => 'assets/flags/bb.png',
+            ],
+            [
+                'name' => 'Bangladesh',
+                'code' => 'BD',
+                'flug' => 'assets/flags/bd.png',
+            ],
+            [
+                'name' => 'Belgium',
+                'code' => 'BE',
+                'flug' => 'assets/flags/be.png',
+            ],
+            [
+                'name' => 'Burkina Faso',
+                'code' => 'BF',
+                'flug' => 'assets/flags/bf.png',
+            ],
+            [
+                'name' => 'Bulgaria',
+                'code' => 'BG',
+                'flug' => 'assets/flags/bg.png',
+            ],
+            [
+                'name' => 'Bahrain',
+                'code' => 'BH',
+                'flug' => 'assets/flags/bh.png',
+            ],
+            [
+                'name' => 'Burundi',
+                'code' => 'BI',
+                'flug' => 'assets/flags/bi.png',
+            ],
+            [
+                'name' => 'Benin',
+                'code' => 'BJ',
+                'flug' => 'assets/flags/bj.png',
+            ],
+            [
+                'name' => 'Bermuda',
+                'code' => 'BM',
+                'flug' => 'assets/flags/bm.png',
+            ],
+            [
+                'name' => 'Brunei Darussalam',
+                'code' => 'BN',
+                'flug' => 'assets/flags/bn.png',
+            ],
+            [
+                'name' => 'Bolivia',
+                'code' => 'BO',
+                'flug' => 'assets/flags/bo.png',
+            ],
+            [
+                'name' => 'Brazil',
+                'code' => 'BR',
+                'flug' => 'assets/flags/br.png',
+            ],
+            [
+                'name' => 'The Bahamas',
+                'code' => 'BS',
+                'flug' => 'assets/flags/bs.png',
+            ],
+            [
+                'name' => 'Bhutan',
+                'code' => 'BT',
+                'flug' => 'assets/flags/bt.png',
+            ],
+            [
+                'name' => 'Bouvet Island',
+                'code' => 'BV',
+                'flug' => 'assets/flags/bv.png',
+            ],
+            [
+                'name' => 'Botswana',
+                'code' => 'BW',
+                'flug' => 'assets/flags/bw.png',
+            ],
+            [
+                'name' => 'Belarus',
+                'code' => 'BY',
+                'flug' => 'assets/flags/by.png',
+            ],
+            [
+                'name' => 'Canada',
+                'code' => 'CA',
+                'flug' => 'assets/flags/ca.png',
+            ],
+            [
+                'name' => 'Catalonia',
+                'code' => 'Catalonia',
+                'flug' => 'assets/flags/catalonia.png',
+            ],
+            [
+                'name' => 'Cocos (Keeling) Islands',
+                'code' => 'CC',
+                'flug' => 'assets/flags/cc.png',
+            ],
+            [
+                'name' => 'Democratic Republic of the Congo',
+                'code' => 'CD',
+                'flug' => 'assets/flags/cd.png',
+            ],
+            [
+                'name' => 'Central African Republic',
+                'code' => 'CF',
+                'flug' => 'assets/flags/cf.png',
+            ],
+            [
+                'name' => 'Republic of the Congo',
+                'code' => 'CG',
+                'flug' => 'assets/flags/cg.png',
+            ],
+            [
+                'name' => 'Switzerland',
+                'code' => 'CH',
+                'flug' => 'assets/flags/ch.png',
+            ],
+            [
+                'name' => 'Côte d\'Ivoire',
+                'code' => 'CI',
+                'flug' => 'assets/flags/ci.png',
+            ],
+            [
+                'name' => 'Cook Islands',
+                'code' => 'CK',
+                'flug' => 'assets/flags/ck.png',
+            ],
+            [
+                'name' => 'Chile',
+                'code' => 'CL',
+                'flug' => 'assets/flags/cl.png',
+            ],
+            [
+                'name' => 'Cameroon',
+                'code' => 'CM',
+                'flug' => 'assets/flags/cm.png',
+            ],
+            [
+                'name' => 'China',
+                'code' => 'CN',
+                'flug' => 'assets/flags/cn.png',
+            ],
+            [
+                'name' => 'Colombia',
+                'code' => 'CO',
+                'flug' => 'assets/flags/co.png',
+            ],
+            [
+                'name' => 'Costa Rica',
+                'code' => 'CR',
+                'flug' => 'assets/flags/cr.png',
+            ],
+            [
+                'name' => 'Serbia and Montenegro',
+                'code' => 'CS',
+                'flug' => 'assets/flags/cs.png',
+            ],
+            [
+                'name' => 'Cuba',
+                'code' => 'CU',
+                'flug' => 'assets/flags/cu.png',
+            ],
+            [
+                'name' => 'Cape Verde',
+                'code' => 'CV',
+                'flug' => 'assets/flags/cv.png',
+            ],
+            [
+                'name' => 'Christmas Island',
+                'code' => 'CX',
+                'flug' => 'assets/flags/cx.png',
+            ],
+            [
+                'name' => 'Cyprus',
+                'code' => 'CY',
+                'flug' => 'assets/flags/cy.png',
+            ],
+            [
+                'name' => 'Czech Republic',
+                'code' => 'CZ',
+                'flug' => 'assets/flags/cz.png',
+            ],
+            [
+                'name' => 'Germany',
+                'code' => 'DE',
+                'flug' => 'assets/flags/de.png',
+            ],
+            [
+                'name' => 'Djibouti',
+                'code' => 'DJ',
+                'flug' => 'assets/flags/dj.png',
+            ],
+            [
+                'name' => 'Denmark',
+                'code' => 'DK',
+                'flug' => 'assets/flags/dk.png',
+            ],
+            [
+                'name' => 'Dominica',
+                'code' => 'DM',
+                'flug' => 'assets/flags/dm.png',
+            ],
+            [
+                'name' => 'Dominican Republic',
+                'code' => 'DO',
+                'flug' => 'assets/flags/do.png',
+            ],
+            [
+                'name' => 'Algeria',
+                'code' => 'DZ',
+                'flug' => 'assets/flags/dz.png',
+            ],
+            [
+                'name' => 'Ecuador',
+                'code' => 'EC',
+                'flug' => 'assets/flags/ec.png',
+            ],
+            [
+                'name' => 'Estonia',
+                'code' => 'EE',
+                'flug' => 'assets/flags/ee.png',
+            ],
+            [
+                'name' => 'Egypt',
+                'code' => 'EG',
+                'flug' => 'assets/flags/eg.png',
+            ],
+            [
+                'name' => 'Western Sahara',
+                'code' => 'EH',
+                'flug' => 'assets/flags/eh.png',
+            ],
+            [
+                'name' => 'England',
+                'code' => 'England',
+                'flug' => 'assets/flags/en.png',
+            ],
+            [
+                'name' => 'England',
+                'code' => 'England',
+                'flug' => 'assets/flags/england.png',
+            ],
+            [
+                'name' => 'Eritrea',
+                'code' => 'ER',
+                'flug' => 'assets/flags/er.png',
+            ],
+            [
+                'name' => 'Spain',
+                'code' => 'ES',
+                'flug' => 'assets/flags/es.png',
+            ],
+            [
+                'name' => 'Ethiopia',
+                'code' => 'ET',
+                'flug' => 'assets/flags/et.png',
+            ],
+            [
+                'name' => 'European Union',
+                'code' => 'European Union',
+                'flug' => 'assets/flags/europeanunion.png',
+            ],
+            [
+                'name' => 'Fam',
+                'code' => 'Fam',
+                'flug' => 'assets/flags/fam.png',
+            ],
+            [
+                'name' => 'Finland',
+                'code' => 'FI',
+                'flug' => 'assets/flags/fi.png',
+            ],
+            [
+                'name' => 'Fiji',
+                'code' => 'FJ',
+                'flug' => 'assets/flags/fj.png',
+            ],
+            [
+                'name' => 'Falkland Islands',
+                'code' => 'FK',
+                'flug' => 'assets/flags/fk.png',
+            ],
+            [
+                'name' => 'Micronesia',
+                'code' => 'FM',
+                'flug' => 'assets/flags/fm.png',
+            ],
+            [
+                'name' => 'Faroe Islands',
+                'code' => 'FO',
+                'flug' => 'assets/flags/fo.png',
+            ],
+            [
+                'name' => 'France',
+                'code' => 'FR',
+                'flug' => 'assets/flags/fr.png',
+            ],
+            [
+                'name' => 'Gabon',
+                'code' => 'GA',
+                'flug' => 'assets/flags/ga.png',
+            ],
+            [
+                'name' => 'Grenada',
+                'code' => 'GD',
+                'flug' => 'assets/flags/gd.png',
+            ],
+            [
+                'name' => 'Georgia',
+                'code' => 'GE',
+                'flug' => 'assets/flags/ge.png',
+            ],
+            [
+                'name' => 'French Guiana',
+                'code' => 'GF',
+                'flug' => 'assets/flags/gf.png',
+            ],
+            [
+                'name' => 'Ghana',
+                'code' => 'GH',
+                'flug' => 'assets/flags/gh.png',
+            ],
+            [
+                'name' => 'Gibraltar',
+                'code' => 'GI',
+                'flug' => 'assets/flags/gi.png',
+            ],
+            [
+                'name' => 'Greenland',
+                'code' => 'GL',
+                'flug' => 'assets/flags/gl.png',
+            ],
+            [
+                'name' => 'Gambia',
+                'code' => 'GM',
+                'flug' => 'assets/flags/gm.png',
+            ],
+            [
+                'name' => 'Guinea',
+                'code' => 'GN',
+                'flug' => 'assets/flags/gn.png',
+            ],
+            [
+                'name' => 'Guadeloupe',
+                'code' => 'GP',
+                'flug' => 'assets/flags/gp.png',
+            ],
+            [
+                'name' => 'Equatorial Guinea',
+                'code' => 'GQ',
+                'flug' => 'assets/flags/gq.png',
+            ],
+            [
+                'name' => 'Greece',
+                'code' => 'GR',
+                'flug' => 'assets/flags/gr.png',
+            ],
+            [
+                'name' => 'South Georgia and the South Sandwich Islands',
+                'code' => 'GS',
+                'flug' => 'assets/flags/gs.png',
+            ],
+            [
+                'name' => 'Guatemala',
+                'code' => 'GT',
+                'flug' => 'assets/flags/gt.png',
+            ],
+            [
+                'name' => 'Guam',
+                'code' => 'GU',
+                'flug' => 'assets/flags/gu.png',
+            ],
+            [
+                'name' => 'Guinea-Bissau',
+                'code' => 'GW',
+                'flug' => 'assets/flags/gw.png',
+            ],
+            [
+                'name' => 'Guyana',
+                'code' => 'GY',
+                'flug' => 'assets/flags/gy.png',
+            ],
+            [
+                'name' => 'Hong Kong',
+                'code' => 'HK',
+                'flug' => 'assets/flags/hk.png',
+            ],
+            [
+                'name' => 'Honduras',
+                'code' => 'HN',
+                'flug' => 'assets/flags/hn.png',
+            ],
+            [
+                'name' => 'Croatia',
+                'code' => 'HR',
+                'flug' => 'assets/flags/hr.png',
+            ],
+            [
+                'name' => 'Haiti',
+                'code' => 'HT',
+                'flug' => 'assets/flags/ht.png',
+            ],
+            [
+                'name' => 'Hungary',
+                'code' => 'HU',
+                'flug' => 'assets/flags/hu.png',
+            ],
+            [
+                'name' => 'Indonesia',
+                'code' => 'ID',
+                'flug' => 'assets/flags/id.png',
+            ],
+            [
+                'name' => 'Ireland',
+                'code' => 'IE',
+                'flug' => 'assets/flags/ie.png',
+            ],
+            [
+                'name' => 'Israel',
+                'code' => 'IL',
+                'flug' => 'assets/flags/il.png',
+            ],
+            [
+                'name' => 'India',
+                'code' => 'IN',
+                'flug' => 'assets/flags/in.png',
+            ],
+            [
+                'name' => 'British Indian Ocean Territory',
+                'code' => 'IO',
+                'flug' => 'assets/flags/io.png',
+            ],
+            [
+                'name' => 'Iraq',
+                'code' => 'IQ',
+                'flug' => 'assets/flags/iq.png',
+            ],
+            [
+                'name' => 'Iran',
+                'code' => 'IR',
+                'flug' => 'assets/flags/ir.png',
+            ],
+            [
+                'name' => 'Iceland',
+                'code' => 'IS',
+                'flug' => 'assets/flags/is.png',
+            ],
+            [
+                'name' => 'Italy',
+                'code' => 'IT',
+                'flug' => 'assets/flags/it.png',
+            ],
+            [
+                'name' => 'Jamaica',
+                'code' => 'JM',
+                'flug' => 'assets/flags/jm.png',
+            ],
+            [
+                'name' => 'Jordan',
+                'code' => 'JO',
+                'flug' => 'assets/flags/jo.png',
+            ],
+            [
+                'name' => 'Japan',
+                'code' => 'JP',
+                'flug' => 'assets/flags/jp.png',
+            ],
+            [
+                'name' => 'Kenya',
+                'code' => 'KE',
+                'flug' => 'assets/flags/ke.png',
+            ],
+            [
+                'name' => 'Kyrgyzstan',
+                'code' => 'KG',
+                'flug' => 'assets/flags/kg.png',
+            ],
+            [
+                'name' => 'Cambodia',
+                'code' => 'KH',
+                'flug' => 'assets/flags/kh.png',
+            ],
+            [
+                'name' => 'Kiribati',
+                'code' => 'KI',
+                'flug' => 'assets/flags/ki.png',
+            ],
+            [
+                'name' => 'Kuwait',
+                'code' => 'KW',
+                'flug' => 'assets/flags/kw.png',
+            ],
+            [
+                'name' => 'Cayman Islands',
+                'code' => 'KY',
+                'flug' => 'assets/flags/ky.png',
+            ],
+            [
+                'name' => 'Kazakhstan',
+                'code' => 'KZ',
+                'flug' => 'assets/flags/kz.png',
+            ],
+            [
+                'name' => 'Lao People\'s Democratic Republic',
+                'code' => 'LA',
+                'flug' => 'assets/flags/la.png',
+            ],
+            [
+                'name' => 'Lebanon',
+                'code' => 'LB',
+                'flug' => 'assets/flags/lb.png',
+            ],
+            [
+                'name' => 'Saint Lucia',
+                'code' => 'LC',
+                'flug' => 'assets/flags/lc.png',
+            ],
+            [
+                'name' => 'Liechtenstein',
+                'code' => 'LI',
+                'flug' => 'assets/flags/li.png',
+            ],
+            [
+                'name' => 'Sri Lanka',
+                'code' => 'LK',
+                'flug' => 'assets/flags/lk.png',
+            ],
+            [
+                'name' => 'Liberia',
+                'code' => 'LR',
+                'flug' => 'assets/flags/lr.png',
+            ],
+            [
+                'name' => 'Lesotho',
+                'code' => 'LS',
+                'flug' => 'assets/flags/ls.png',
+            ],
+            [
+                'name' => 'Lithuania',
+                'code' => 'LT',
+                'flug' => 'assets/flags/lt.png',
+            ],
+            [
+                'name' => 'Luxembourg',
+                'code' => 'LU',
+                'flug' => 'assets/flags/lu.png',
+            ],
+            [
+                'name' => 'Latvia',
+                'code' => 'LV',
+                'flug' => 'assets/flags/lv.png',
+            ],
+            [
+                'name' => 'Libya',
+                'code' => 'LY',
+                'flug' => 'assets/flags/ly.png',
+            ],
+            [
+                'name' => 'Morocco',
+                'code' => 'MA',
+                'flug' => 'assets/flags/ma.png',
+            ],
+            [
+                'name' => 'Monaco',
+                'code' => 'MC',
+                'flug' => 'assets/flags/mc.png',
+            ],
+            [
+                'name' => 'Moldova',
+                'code' => 'MD',
+                'flug' => 'assets/flags/md.png',
+            ],
+            [
+                'name' => 'Montenegro',
+                'code' => 'ME',
+                'flug' => 'assets/flags/me.png',
+            ],
+            [
+                'name' => 'Madagascar',
+                'code' => 'MG',
+                'flug' => 'assets/flags/mg.png',
+            ],
+            [
+                'name' => 'Marshall Islands',
+                'code' => 'MH',
+                'flug' => 'assets/flags/mh.png',
+            ],
+            [
+                'name' => 'North Macedonia',
+                'code' => 'MK',
+                'flug' => 'assets/flags/mk.png',
+            ],
+            [
+                'name' => 'Mali',
+                'code' => 'ML',
+                'flug' => 'assets/flags/ml.png',
+            ],
+            [
+                'name' => 'Myanmar',
+                'code' => 'MM',
+                'flug' => 'assets/flags/mm.png',
+            ],
+            [
+                'name' => 'Mongolia',
+                'code' => 'MN',
+                'flug' => 'assets/flags/mn.png',
+            ],
+            [
+                'name' => 'Macau',
+                'code' => 'MO',
+                'flug' => 'assets/flags/mo.png',
+            ],
+            [
+                'name' => 'Northern Mariana Islands',
+                'code' => 'MP',
+                'flug' => 'assets/flags/mp.png',
+            ],
+            [
+                'name' => 'Martinique',
+                'code' => 'MQ',
+                'flug' => 'assets/flags/mq.png',
+            ],
+            [
+                'name' => 'Mauritania',
+                'code' => 'MR',
+                'flug' => 'assets/flags/mr.png',
+            ],
+            [
+                'name' => 'Montserrat',
+                'code' => 'MS',
+                'flug' => 'assets/flags/ms.png',
+            ],
+            [
+                'name' => 'Malta',
+                'code' => 'MT',
+                'flug' => 'assets/flags/mt.png',
+            ],
+            [
+                'name' => 'Mauritius',
+                'code' => 'MU',
+                'flug' => 'assets/flags/mu.png',
+            ],
+            [
+                'name' => 'Maldives',
+                'code' => 'MV',
+                'flug' => 'assets/flags/mv.png',
+            ],
+            [
+                'name' => 'Malawi',
+                'code' => 'MW',
+                'flug' => 'assets/flags/mw.png',
+            ],
+            [
+                'name' => 'Mexico',
+                'code' => 'MX',
+                'flug' => 'assets/flags/mx.png',
+            ],
+            [
+                'name' => 'Malaysia',
+                'code' => 'MY',
+                'flug' => 'assets/flags/my.png',
+            ],
+            [
+                'name' => 'Mozambique',
+                'code' => 'MZ',
+                'flug' => 'assets/flags/mz.png',
+            ],
+            [
+                'name' => 'Namibia',
+                'code' => 'NA',
+                'flug' => 'assets/flags/na.png',
+            ],
+            [
+                'name' => 'New Caledonia',
+                'code' => 'NC',
+                'flug' => 'assets/flags/nc.png',
+            ],
+            [
+                'name' => 'Niger',
+                'code' => 'NE',
+                'flug' => 'assets/flags/ne.png',
+            ],
+            [
+                'name' => 'Norfolk Island',
+                'code' => 'NF',
+                'flug' => 'assets/flags/nf.png',
+            ],
+            [
+                'name' => 'Nigeria',
+                'code' => 'NG',
+                'flug' => 'assets/flags/ng.png',
+            ],
+            [
+                'name' => 'Nicaragua',
+                'code' => 'NI',
+                'flug' => 'assets/flags/ni.png',
+            ],
+            [
+                'name' => 'Netherlands',
+                'code' => 'NL',
+                'flug' => 'assets/flags/nl.png',
+            ],
+            [
+                'name' => 'Norway',
+                'code' => 'NO',
+                'flug' => 'assets/flags/no.png',
+            ],
+            [
+                'name' => 'Nepal',
+                'code' => 'NP',
+                'flug' => 'assets/flags/np.png',
+            ],
+            [
+                'name' => 'Nauru',
+                'code' => 'NR',
+                'flug' => 'assets/flags/nr.png',
+            ],
+            [
+                'name' => 'Niue',
+                'code' => 'NU',
+                'flug' => 'assets/flags/nu.png',
+            ],
+            [
+                'name' => 'New Zealand',
+                'code' => 'NZ',
+                'flug' => 'assets/flags/nz.png',
+            ],
+            [
+                'name' => 'Oman',
+                'code' => 'OM',
+                'flug' => 'assets/flags/om.png',
+            ],
+            [
+                'name' => 'Panama',
+                'code' => 'PA',
+                'flug' => 'assets/flags/pa.png',
+            ],
+            [
+                'name' => 'Peru',
+                'code' => 'PE',
+                'flug' => 'assets/flags/pe.png',
+            ],
+            [
+                'name' => 'French Polynesia',
+                'code' => 'PF',
+                'flug' => 'assets/flags/pf.png',
+            ],
+            [
+                'name' => 'Papua New Guinea',
+                'code' => 'PG',
+                'flug' => 'assets/flags/pg.png',
+            ],
+            [
+                'name' => 'Philippines',
+                'code' => 'PH',
+                'flug' => 'assets/flags/ph.png',
+            ],
+            [
+                'name' => 'Pakistan',
+                'code' => 'PK',
+                'flug' => 'assets/flags/pk.png',
+            ],
+            [
+                'name' => 'Poland',
+                'code' => 'PL',
+                'flug' => 'assets/flags/pl.png',
+            ],
+            [
+                'name' => 'Saint Pierre and Miquelon',
+                'code' => 'PM',
+                'flug' => 'assets/flags/pm.png',
+            ],
+            [
+                'name' => 'Pitcairn',
+                'code' => 'PN',
+                'flug' => 'assets/flags/pn.png',
+            ],
+            [
+                'name' => 'Puerto Rico',
+                'code' => 'PR',
+                'flug' => 'assets/flags/pr.png',
+            ],
+            [
+                'name' => 'Palestine',
+                'code' => 'PS',
+                'flug' => 'assets/flags/ps.png',
+            ],
+            [
+                'name' => 'Portugal',
+                'code' => 'PT',
+                'flug' => 'assets/flags/pt.png',
+            ],
+            [
+                'name' => 'Palau',
+                'code' => 'PW',
+                'flug' => 'assets/flags/pw.png',
+            ],
+            [
+                'name' => 'Paraguay',
+                'code' => 'PY',
+                'flug' => 'assets/flags/py.png',
+            ],
+            [
+                'name' => 'Qatar',
+                'code' => 'QA',
+                'flug' => 'assets/flags/qa.png',
+            ],
+            [
+                'name' => 'Réunion',
+                'code' => 'RE',
+                'flug' => 'assets/flags/re.png',
+            ],
+            [
+                'name' => 'Romania',
+                'code' => 'RO',
+                'flug' => 'assets/flags/ro.png',
+            ],
+            [
+                'name' => 'Serbia',
+                'code' => 'RS',
+                'flug' => 'assets/flags/rs.png',
+            ],
+            [
+                'name' => 'Russia',
+                'code' => 'RU',
+                'flug' => 'assets/flags/ru.png',
+            ],
+            [
+                'name' => 'Rwanda',
+                'code' => 'RW',
+                'flug' => 'assets/flags/rw.png',
+            ],
+            [
+                'name' => 'Saudi Arabia',
+                'code' => 'SA',
+                'flug' => 'assets/flags/sa.png',
+            ],
+            [
+                'name' => 'Solomon Islands',
+                'code' => 'SB',
+                'flug' => 'assets/flags/sb.png',
+            ],
+            [
+                'name' => 'Seychelles',
+                'code' => 'SC',
+                'flug' => 'assets/flags/sc.png',
+            ],
+            [
+                'name' => 'Scotland',
+                'code' => 'Scotland',
+                'flug' => 'assets/flags/scotland.png',
+            ],
+            [
+                'name' => 'Sudan',
+                'code' => 'SD',
+                'flug' => 'assets/flags/sd.png',
+            ],
+            [
+                'name' => 'Sweden',
+                'code' => 'SE',
+                'flug' => 'assets/flags/se.png',
+            ],
+            [
+                'name' => 'Singapore',
+                'code' => 'SG',
+                'flug' => 'assets/flags/sg.png',
+            ],
+            [
+                'name' => 'Saint Helena',
+                'code' => 'SH',
+                'flug' => 'assets/flags/sh.png',
+            ],
+            [
+                'name' => 'Slovenia',
+                'code' => 'SI',
+                'flug' => 'assets/flags/si.png',
+            ],
+            [
+                'name' => 'Svalbard and Jan Mayen',
+                'code' => 'SJ',
+                'flug' => 'assets/flags/sj.png',
+            ],
+            [
+                'name' => 'Slovakia',
+                'code' => 'SK',
+                'flug' => 'assets/flags/sk.png',
+            ],
+            [
+                'name' => 'Sierra Leone',
+                'code' => 'SL',
+                'flug' => 'assets/flags/sl.png',
+            ],
+            [
+                'name' => 'San Marino',
+                'code' => 'SM',
+                'flug' => 'assets/flags/sm.png',
+            ],
+            [
+                'name' => 'Senegal',
+                'code' => 'SN',
+                'flug' => 'assets/flags/sn.png',
+            ],
+            [
+                'name' => 'Somalia',
+                'code' => 'SO',
+                'flug' => 'assets/flags/so.png',
+            ],
+            [
+                'name' => 'Suriname',
+                'code' => 'SR',
+                'flug' => 'assets/flags/sr.png',
+            ],
+            [
+                'name' => 'Sao Tome and Principe',
+                'code' => 'ST',
+                'flug' => 'assets/flags/st.png',
+            ],
+            [
+                'name' => 'El Salvador',
+                'code' => 'SV',
+                'flug' => 'assets/flags/sv.png',
+            ],
+            [
+                'name' => 'Syria',
+                'code' => 'SY',
+                'flug' => 'assets/flags/sy.png',
+            ],
+            [
+                'name' => 'Eswatini',
+                'code' => 'SZ',
+                'flug' => 'assets/flags/sz.png',
+            ],
+            [
+                'name' => 'Turks and Caicos Islands',
+                'code' => 'TC',
+                'flug' => 'assets/flags/tc.png',
+            ],
+            [
+                'name' => 'Chad',
+                'code' => 'TD',
+                'flug' => 'assets/flags/td.png',
+            ],
+            [
+                'name' => 'French Southern Territories',
+                'code' => 'TF',
+                'flug' => 'assets/flags/tf.png',
+            ],
+            [
+                'name' => 'Togo',
+                'code' => 'TG',
+                'flug' => 'assets/flags/tg.png',
+            ],
+            [
+                'name' => 'Thailand',
+                'code' => 'TH',
+                'flug' => 'assets/flags/th.png',
+            ],
+            [
+                'name' => 'Tajikistan',
+                'code' => 'TJ',
+                'flug' => 'assets/flags/tj.png',
+            ],
+            [
+                'name' => 'Tokelau',
+                'code' => 'TK',
+                'flug' => 'assets/flags/tk.png',
+            ],
+            [
+                'name' => 'Timor-Leste',
+                'code' => 'TL',
+                'flug' => 'assets/flags/tl.png',
+            ],
+            [
+                'name' => 'Turkmenistan',
+                'code' => 'TM',
+                'flug' => 'assets/flags/tm.png',
+            ],
+            [
+                'name' => 'Tunisia',
+                'code' => 'TN',
+                'flug' => 'assets/flags/tn.png',
+            ],
+            [
+                'name' => 'Tonga',
+                'code' => 'TO',
+                'flug' => 'assets/flags/to.png',
+            ],
+            [
+                'name' => 'Turkey',
+                'code' => 'TR',
+                'flug' => 'assets/flags/tr.png',
+            ],
+            [
+                'name' => 'Trinidad and Tobago',
+                'code' => 'TT',
+                'flug' => 'assets/flags/tt.png',
+            ],
+            [
+                'name' => 'Tuvalu',
+                'code' => 'TV',
+                'flug' => 'assets/flags/tv.png',
+            ],
+            [
+                'name' => 'Taiwan',
+                'code' => 'TW',
+                'flug' => 'assets/flags/tw.png',
+            ],
+            [
+                'name' => 'Tanzania',
+                'code' => 'TZ',
+                'flug' => 'assets/flags/tz.png',
+            ],
+            [
+                'name' => 'Ukraine',
+                'code' => 'UA',
+                'flug' => 'assets/flags/ua.png',
+            ],
+            [
+                'name' => 'Uganda',
+                'code' => 'UG',
+                'flug' => 'assets/flags/ug.png',
+            ],
+            [
+                'name' => 'United States Minor Outlying Islands',
+                'code' => 'UM',
+                'flug' => 'assets/flags/um.png',
+            ],
+            [
+                'name' => 'Uruguay',
+                'code' => 'UY',
+                'flug' => 'assets/flags/uy.png',
+            ],
+            [
+                'name' => 'Uzbekistan',
+                'code' => 'UZ',
+                'flug' => 'assets/flags/uz.png',
+            ],
+            [
+                'name' => 'Vatican City',
+                'code' => 'VA',
+                'flug' => 'assets/flags/va.png',
+            ],
+            [
+                'name' => 'Saint Vincent and the Grenadines',
+                'code' => 'VC',
+                'flug' => 'assets/flags/vc.png',
+            ],
+            [
+                'name' => 'Venezuela',
+                'code' => 'VE',
+                'flug' => 'assets/flags/ve.png',
+            ],
+            [
+                'name' => 'British Virgin Islands',
+                'code' => 'VG',
+                'flug' => 'assets/flags/vg.png',
+            ],
+            [
+                'name' => 'U.S. Virgin Islands',
+                'code' => 'VI',
+                'flug' => 'assets/flags/vi.png',
+            ],
+            [
+                'name' => 'Vietnam',
+                'code' => 'VN',
+                'flug' => 'assets/flags/vn.png',
+            ],
+            [
+                'name' => 'Vanuatu',
+                'code' => 'VU',
+                'flug' => 'assets/flags/vu.png',
+            ],
+            [
+                'name' => 'Wales',
+                'code' => 'Wales', // Assuming the code for Wales is 'Wales'
+                'flug' => 'assets/flags/wales.png',
+            ],
+            [
+                'name' => 'Wallis and Futuna',
+                'code' => 'WF',
+                'flug' => 'assets/flags/wf.png',
+            ],
+            [
+                'name' => 'Samoa',
+                'code' => 'WS',
+                'flug' => 'assets/flags/ws.png',
+            ],
+            [
+                'name' => 'Yemen',
+                'code' => 'YE',
+                'flug' => 'assets/flags/ye.png',
+            ],
+            [
+                'name' => 'Mayotte',
+                'code' => 'YT',
+                'flug' => 'assets/flags/yt.png',
+            ],
+            [
+                'name' => 'South Africa',
+                'code' => 'ZA',
+                'flug' => 'assets/flags/za.png',
+            ],
+            [
+                'name' => 'Zambia',
+                'code' => 'ZM',
+                'flug' => 'assets/flags/zm.png',
+            ],
+            [
+                'name' => 'Zimbabwe',
+                'code' => 'ZW',
+                'flug' => 'assets/flags/zw.png',
+            ],
+        ];
+
+        foreach ($flugs as $flug) {
+            $flug['slug'] = Str::slug($flug['name']);
+            Language::create($flug);
+        }
+    }
+}
